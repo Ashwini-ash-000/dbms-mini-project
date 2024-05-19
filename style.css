@@ -1,0 +1,187 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+.navbar {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 10px 20px;
+    height: 50px;
+}
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+.search-bar input {
+    margin-left: 600px;
+    border: none;
+    border-radius: 3px;
+    /* display: flex; */
+}
+#SearchInput {
+    width: 500px;
+    height: 35px;
+    padding: 3px;
+}
+.search-bar input:hover {
+    border-radius: .1875rem;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3E8E41;
+    color: white;
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    transition: all 0.3s ease;
+}
+.search-bar button:hover {
+    background-color: #2e7031;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.menu-bar {
+    background-color: #3E8E41;
+    padding: 10px 20px;
+}
+.menu-bar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-bar ul li {
+    margin-right: 20px;
+}
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.menu-bar ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.contain {
+    background-color: #b8f1ba;
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+    /* padding: 20px; */
+}
+.sub-contain-1 {
+    display: flex;
+    padding: 30px;
+    /* padding-left: 55px; */
+}
+.box1 {
+    background-color: white;
+    margin-right: 45px;
+    margin-left: 30px;
+    height: 350px;
+    width: 275px;
+    padding: 15px;
+}
+.box1 img {
+    height: 270px;
+    width: 240px;
+}
+.box1 h5 {
+    font-weight: bold;
+}
+.info {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* padding-left: 5px; */
+    /* background-color: blue; */
+}
+.info p {
+    padding-left: 90px;
+}
+.d-block {
+    height: 290px;
+    width: 100%;
+}
+
+.best-sell {
+    background-color: #3E8E41;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+}
+.best-sell-soils {
+    background-color: #4CAF50;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.best-sell-soils:hover {
+    text-decoration: solid;
+    cursor: pointer;
+}
+.soil-box1 {
+    background-color: white;
+    margin-right: 45px;
+    margin-left: 30px;
+    height: 400px;
+    width: 295px;
+    padding: 15px;
+}
+.soil-box1 img {
+    height: 290px;
+    width: 260px;
+}
+.soil-description1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.soil-box1 p {
+    font-weight: bold;
+}
+.soil-description1 p {
+    font-weight: bold;
+}
+#discount {
+    text-decoration: line-through;
+    font-weight: normal;
+}
+.soil-box1 h5 {
+    font-weight: bolder;
+}
+.contain-soil {
+    padding-top: 30px;
+    background-color: #b8f1ba;
+    width: 100%;
+    height: 2500px;
+    margin: 0;
+    justify-content: center;
+    /* padding: 20px; */
+}
+.first-row {
+    margin-top: 30px;
+}
